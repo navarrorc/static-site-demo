@@ -8,5 +8,5 @@ var browserSync = require("browser-sync").create();
 browserSync.init({
   watch: true,
   open: false,
-  server: "_site/" // relative to the root level
+  server: "_site/" // relative to the project's root directory
 });
